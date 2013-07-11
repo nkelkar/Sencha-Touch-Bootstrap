@@ -6,7 +6,7 @@ Steps to integrate with your Sencha Touch 2 project:
 Copy bootstrap.css (resources/css/bootstrap.css)
 
 Modify your index page to include the bootstrap.css file:
-<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css" />
 
 Copy the bootstrap theme folder (resources/theme).
 
