@@ -1,0 +1,17 @@
+Simple uncluttered theme for Sencha Touch 2 while retaining the Twitter-Bootstrap classes.
+It also includes:
+o	The icon set from Glyphicons
+o	FontAwesome
+
+Steps to integrate with your Sencha Touch 2 project:
+o	Copy bootstrap.css (resources/css/bootstrap.css)
+o	Modify your index page to include the bootstrap.css file
+<link rel="stylesheet" type="text/css" href="resources/css/bootstrap/bootstrap.css" />
+o	Copy the bootstrap theme folder (resources/theme).
+o	You can modify bootstrap.scss (resources/sass/bootstrap.scss) to add new classes/ overwrite the existing bootstrap classes. Compile the file using compass to generate a new bootstrap.css
+o	Changes to compass configuration ruby file (resources/sass/config.rb):
+	# Load the Sencha-touch framework automatically.
+		load File.join(dir, '..', '..', 'touch', 'resources', 'themes')
+	# Load the local theme
+		load File.join(dir, '..', 'theme');
+	images_dir = File.join(dir, “..”, “theme”, “images”, “bootstrap”)
