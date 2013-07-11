@@ -13,8 +13,8 @@ Copy the bootstrap theme folder (resources/theme).
 You can modify bootstrap.scss (resources/sass/bootstrap.scss) to add new classes/ overwrite the existing bootstrap classes. Compile the file using compass to generate a new bootstrap.css
 
 Changes to compass configuration ruby file (resources/sass/config.rb):
-	# Load the Sencha-touch framework automatically.
-		load File.join(dir, '..', '..', 'touch', 'resources', 'themes')
-	# Load the local theme
-		load File.join(dir, '..', 'theme');
-	images_dir = File.join(dir, “..”, “theme”, “images”, “bootstrap”)
+# Load the Sencha-touch framework automatically.
+	load File.join(dir, '..', '..', 'touch', 'resources', 'themes')
+# Load the local theme
+	load File.join(dir, '..', 'theme');
+images_dir = File.join(dir, “..”, “theme”, “images”, “bootstrap”)
